@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 /* Common styles */
 html{
   box-sizing: border-box;
@@ -8,7 +9,7 @@ html{
 body{
   padding: 0;
   margin: 0;
-  font-family: "Rubik", "Arial", sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 500;
   font-size: 19px;
   line-height: 23px;
