@@ -240,3 +240,143 @@ img{
   opacity: 0.6;
   font-size: 15px;
 }
+
+@media only screen and (max-width: 920px) {
+  .events-info {
+    flex-direction: column;
+  }
+  .text-wrapper{
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .site-header {
+    flex-direction: column;
+  }
+  .logo{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .hero {
+    padding-top: 50px;
+  }
+  .hero-left {
+    width: 40%;
+  }
+  .hero-right {
+    width: 55%;
+  }
+  .hero-title {
+    font-size: 35px;
+  }
+  .hero-text {
+    font-size: 16px;
+  }
+  .events {
+    padding: 0 10px;
+  }
+  .news {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 760px) { 
+  .site-header {
+    flex-direction: column;
+  }
+  .logo{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .hero {
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  .hero-left {
+    width: 90%;
+    order: 1;
+    margin-bottom: 30px;
+  }
+  .hero-right {
+    order: -1;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .feature {
+    position: relative;
+    flex-direction: column;
+  }
+  .news {
+    width: 100%;
+    order: -1;
+  }
+  .events {
+    width: 100%;
+    order: 1;
+  }
+  .events-info {
+    width: 90%;
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 760px) { 
+  .content-inline {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .nav-item {
+    margin-right: 15px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  
+  .search {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+  .logo {
+    align-self: flex-start;
+  }
+  .hero {
+    align-items: center;
+  }
+  .hero-left, .hero-right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .nav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .site-nav {
+    margin-top: 15px;
+  }
+  .nav-link {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .news {
+    flex-direction: column;
+  }
+  .news-text {
+    text-align: center;
+  }
+  .events-title {
+    text-align: center;
+  }
+  .events-info {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .menu-icon {
+    font-size: 25px;
+  }
+}
+
